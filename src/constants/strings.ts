@@ -2,7 +2,7 @@ export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 export const BLOG_URL = process.env.REACT_APP_BLOG_URL!
 
 export const WIN_MESSAGES = [
-  'You HASHED it out!',
+  'You HASHED it out! 🧮',
   'Nice! Keep HODLing 🪙',
   'You Mined it! 🔨',
   'Nice! May you always buy the dip',
@@ -10,9 +10,10 @@ export const WIN_MESSAGES = [
   '👍! May your coin pumps 100%',
   '👍! May your portfolio turns green too! 🟢',
 ]
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
-export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
+export const GAME_COPIED_MESSAGE = 'dWordle copied to clipboard'
+export const NOT_ENOUGH_LETTERS_MESSAGE =
+  'Not enough letters. More BLOCKS ahead.'
+export const WORD_NOT_FOUND_MESSAGE = 'Word not found. Some new token, is it?'
 export const HARD_MODE_ALERT_MESSAGE =
   'Hard Mode can only be enabled at the start!'
 export const HARD_MODE_DESCRIPTION =

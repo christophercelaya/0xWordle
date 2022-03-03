@@ -23,7 +23,12 @@ export const Navbar = ({
           className="h-6 w-6 mr-5 cursor-pointer dark:stroke-white"
           onClick={() => setIsInfoModalOpen(true)}
         />
-        <p className="text-xl ml-3 font-bold dark:text-white">{GAME_TITLE}</p>
+        <p
+          className="text-xl ml-3 font-bold dark:text-white"
+          onClick={() => window.open('https://saugaatallabadi.com/', '_blank')}
+        >
+          {GAME_TITLE}
+        </p>
         <div className="right-icons">
           <ChartBarIcon
             className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
