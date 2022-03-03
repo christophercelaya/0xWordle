@@ -73,7 +73,7 @@ export const localeAwareUpperCase = (text: string) => {
 }
 
 export const getWordOfDay = () => {
-  // March 4, 2022 Game Epoch
+  // March 4, 2022 Game Launch
   const epochMs = new Date('March 3, 2022 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
