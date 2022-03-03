@@ -34,4 +34,4 @@ $> docker build --target=prod -t game:prod .
 $> docker run -d -p 80:80 game:prod
 ```
 
-Open [http://localhost](http://localhost) in browser.
+Open [http://localhost:3000](http://localhost:3000) in browser.
