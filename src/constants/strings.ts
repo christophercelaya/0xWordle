@@ -10,9 +10,9 @@ export const WIN_MESSAGES = [
   '👍! May your coin pumps 100%',
   '👍! May your portfolio turns green too! 🟢',
 ]
-export const GAME_COPIED_MESSAGE = 'dWordle copied to clipboard'
+export const GAME_COPIED_MESSAGE = '0xWordle copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE =
-  'Not enough letters. More BLOCKS ahead.'
+  'Not enough letters. More "BLOCKS" ahead.'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not found. Some new token, is it?'
 export const HARD_MODE_ALERT_MESSAGE =
   'Hard Mode can only be enabled at the start!'

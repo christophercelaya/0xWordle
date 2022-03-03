@@ -1,8 +1,8 @@
-# dWordle
+# 0xWordle
 
 This is a Blockchain twist of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
-[**Try out the demo!**](dWorldle.saugaatallabadi.com/)
+[**Try out the demo!**](http://0xWorldle.saugaatallabadi.com/)
 
 ## Build and run
 
