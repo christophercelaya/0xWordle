@@ -1,6 +1,7 @@
 import { getGuessStatuses } from './statuses'
 import { solutionIndex } from './words'
 import { GAME_TITLE } from '../constants/strings'
+import { BLOG_URL } from '../constants/strings'
 import { MAX_CHALLENGES } from '../constants/settings'
 
 export const shareStatus = (
@@ -11,7 +12,7 @@ export const shareStatus = (
   isHighContrastMode: boolean
 ) => {
   navigator.clipboard.writeText(
-    `${GAME_TITLE} ${solutionIndex} ${
+    `🌏 Created by: ${BLOG_URL}\n🚀 ${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
       generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))

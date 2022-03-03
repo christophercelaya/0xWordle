@@ -1,4 +1,5 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+export const BLOG_URL = process.env.REACT_APP_BLOG_URL!
 
 export const WIN_MESSAGES = [
   'You HASHED it out!',
